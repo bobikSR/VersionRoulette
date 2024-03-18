@@ -2,5 +2,6 @@
 /build
 /dist
 /__pycache__
-*/overlay.png
-*/versions.txt
+/overlay.png
+/versions.txt
+/.idea

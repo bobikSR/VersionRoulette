@@ -1,4 +1,3 @@
-import hashlib
 
 from PIL import Image, ImageDraw,ImageFont
 import random
@@ -26,8 +25,3 @@ def roll_versions() -> list[str]:
         possible_versions.remove(version)
     return rolled_versions
 
-
-def hash_versions(versions_str: str):
-    hashed_versions = hashlib.sha256(versions_str.encode()).hexdigest()
-    with open('versions.txt', 'w') as versions_file:
-        versions_file.write(hashed_versions)
