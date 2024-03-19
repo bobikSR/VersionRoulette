@@ -12,7 +12,7 @@ def update_overlay(versions_str: str):
     overlay_str = f"Versions:{versions_str}"
     img = Image.new('RGB', (255, 255), color='green')
     overlay = ImageDraw.Draw(img)
-    overlay.text((10,10), overlay_str, font=ImageFont.truetype('arial.ttf', size=20))
+    overlay.text((10,10), overlay_str, font=ImageFont.truetype('arial.ttf', size=25))
     img.save('overlay.png')
 
 

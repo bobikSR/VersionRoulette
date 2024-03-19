@@ -3,7 +3,6 @@ import tkinter as tk
 
 from methods import roll_versions, update_overlay
 
-# todo: link a very simple livesplit layout - version 1 - 5, big timer
 
 def get_new_versions():
     title_str = "Rolled versions:"
