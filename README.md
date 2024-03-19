@@ -10,4 +10,4 @@ Rules:
 - normal rules from SRC apply
 
 
-PS. spinning the roulette just to get a better sequence of versions makes you a coward. Have fun! :D
+PS. Don't spin the roulette just to get a better sequence of versions! Have fun! :D
